@@ -1,0 +1,332 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+  background-image: url(../img/startup-593327__340.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 550px;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.placeholder {
+	width: 100%;
+	height:35%;
+}
+h1 {
+	color: white;
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-top: 0;
+	margin-left: 10%;
+	text-align: left;
+}
+
+.titre {
+	color: white;
+	font-family: "Helvetica", Arial, sans-serif;
+	text-align: left;
+	margin-left: 10%;
+}
+
+.portrait {
+	float: left;
+	width: 30%;
+	margin: 0;
+}
+
+.propos {
+	background: Window;
+	float: right;
+	width: 70%;
+	height: 491px;
+}
+
+.propos_titre {
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.propos_p {
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 80%;
+}
+
+.competence {
+	float: left;
+}
+
+.competence_titre {
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-left: 20%;
+	padding-top: 5%;
+}
+
+.competence_p {
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-left: 20%;
+	width: 30%;
+}
+
+.placeholder1 {
+	float: left;
+	width: 20%;
+	height: 10px;
+}
+
+.frontend {
+	border-left: solid black;
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 2%;
+	text-indent: 1%;
+	width: 20%;
+}
+
+.backend {
+	border-left: solid black;
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 2%;
+	text-indent: 1%;
+	width: 20%;
+}
+
+.divers {
+	border-left: solid black;
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 2%;
+	text-indent: 1%;
+	width: 20%;
+}
+
+.frontend_element {
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-top: 2%;
+	text-indent: 3%;
+	width: 20%;
+}
+
+.backend_element {
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-top: 2%;
+	text-indent: 3%;
+	width: 20%;
+}
+
+.divers_element {
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-top: 2%;
+	text-indent: 3%;
+	width: 20%;
+}
+
+.trait {
+	float: left;
+	margin-left: 10%;
+}
+
+
+.projet {
+	float: left;
+	margin: 0;
+}
+
+.code {
+	float: left;
+	margin-top: 10%;
+	width: 30%;
+}
+
+.projet_titre {
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-left: 5%;
+	padding-top: 10%;
+}
+
+.projet_p {
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-left: -7%;
+	padding-top: 15%;
+}
+
+.projet_img {
+	width: 100%;
+	float: left;
+}
+
+.cv_img {
+	float: left;
+	width: 33.3%;
+}
+
+.wordpress {
+	float: left;
+	width: 33.3%;
+}
+
+.github {
+	float: left;
+	width: 33.2%;
+}
+
+.hobbie {
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-bottom: 2%;
+	margin-left: 20%;
+	padding-top: 5%;
+	width: 100%;
+}
+
+.couture {
+	float: left;
+	margin-bottom: 4%;
+	width: 33.3%;
+}
+
+.livre {
+	float: left;
+	margin-bottom: 4%;
+	width: 33.3%;
+}
+
+.jeu {
+	float: left;
+	margin-bottom: 4%;
+	width: 33.3%;
+}
+
+
+.ee {
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-bottom: 2%;
+	margin-left: 20%;
+	padding-top: 5%;
+	width: 100%;
+}
+
+.ee_titre {
+	border-left: solid black;
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-weight: bold;
+	margin-left: 10%;
+	margin-top: 2%;
+	text-indent: 1%;
+	width: 20%;
+}
+
+.etude {
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-top: 2%;
+	text-indent: 3%;
+	width: 20%;
+}
+
+.experience {
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-left: 10%;
+	margin-top: 2%;
+	text-indent: 3%;
+	width: 25%;
+}
+
+.placeholder2 {
+	float: left;
+	width: 30%;
+	height: 10px;
+}
+
+.contact {
+	border-top: solid black;
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	padding-bottom: 2%;
+	padding-left: 20%;
+	padding-top: 2.5%;
+	width: 100%;
+}
+
+.contact_tel {
+	border-left: solid black;
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 2%;
+	text-indent: 1%;
+	width: 20%;
+}
+
+.contact_mail {
+	border-left: solid black;
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 2%;
+	text-indent: 1%;
+	width: 20%;
+}
+
+.contact_adresse {
+	border-left: solid black;
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 2%;
+	text-indent: 1%;
+	width: 20%;
+}
+
+.contact_element {
+	float: left;
+	font-family: "Helvetica", Arial, sans-serif;
+	margin-top: 2%;
+	text-indent: 4%;
+	width: 20%;
+}
+
+.phone {
+	color: black;
+}
+
+.mailto {
+	color: black;
+}
+
+.tel {
+  height: 35px;
+  float: left;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.mail {
+  height: 35px;
+  float: left;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.mai {
+  height: 35px;
+  float: left;
+  margin-left: 20%;
+  margin-top: 3%;
+}

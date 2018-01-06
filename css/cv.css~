@@ -1,0 +1,4 @@
+#background_header {
+	background-color: blue;
+	background-size: background-size: 300px 100px;
+}
