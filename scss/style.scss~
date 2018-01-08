@@ -1,80 +1,13 @@
-html, body {
+html {
 	margin: 0;
 	padding: 0;
 }
 
-$bgColorLiBefore: #7289B6;
-$bgColorLiAfter: #9EC337;
-$bgColorLi: #2a2929;
-$radius: 4px;
-
-/* ========= MIXINS ========= */
-
-@mixin transition {
-  -webkit-transition: all .3s ease-out;
-  -moz-transition: all .3s ease-out;
-  -ms-transition: all .3s ease-out;
-  transition: all .3s ease-out;
+body {
+margin:0 auto;
+width: 100%;
+overflow-x: hidden;
 }
-
-/* ======= END Mixins ======= */
-
-
-.link-menu {
-  width: 210px;
-  margin: 20px auto;
-
-  & ul li {
-    display: block;
-    text-transform: uppercase;
-    height: 40px;
-    width: 200px;
-    margin-bottom: 3px;
-    position: relative;
-    border-radius: $radius;
-    background: $bgColorLi;
-    
-    &:last-child {
-      margin-bottom: 0;
-    }
-    & a {
-      color: #fff;
-      padding-left: 15%;
-      display: block;
-      width: 85%;
-      height: 100%;
-      font-size: 24px;
-      line-height: 42px;
-      text-decoration: none;
-      position: absolute;
-      z-index: 1;
-    }
-    
-    &:after {
-      content: '';
-      position: absolute;
-      background: $bgColorLiAfter;
-      top: 0;
-      left: 0;
-      width: 0;
-      height: 100%;
-      z-index: 0;
-      @include transition;
-      border-top-right-radius: $radius;
-      border-bottom-right-radius: $radius;
-      border-top-left-radius: $radius;
-      border-bottom-left-radius: $radius;
-    }
-    &:hover:before {
-      width: 10px;
-      left: -10px;
-    }
-    &:hover:after {
-      width: 100%;
-    }
-  }
-}
-
 
 header {
   background-image: url(../img/startup-593327__340.jpg);
@@ -87,7 +20,7 @@ header {
 }
 
 .placeholder {
-	width: 100%;
+	width: 80%;
 	height:35%;
 }
 h1 {
@@ -96,6 +29,7 @@ h1 {
 	margin-top: 0;
 	margin-left: 10%;
 	text-align: left;
+	width: 50%;
 }
 
 .titre {
@@ -498,4 +432,3 @@ h1 {
   margin-left: 20%;
   margin-top: 3%;
 }
-

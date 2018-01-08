@@ -1,0 +1,101 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+margin:0 auto;
+width: 100%;
+overflow-x: hidden;
+}
+
+
+.slide {
+	float: left;
+	width: 100%;
+}
+
+$bgColorLiBefore: #7289B6;
+$bgColorLiAfter: #C0C0C0;
+$bgColorLi: #2a2929;
+$radius: 4px;
+
+
+#menu, #menu ul    
+
+{
+        padding : 0; 
+        margin : 0; 
+        list-style : none;
+        line-height : 21px; 
+        text-align : center; 
+}
+
+
+#menu 
+
+{
+		  right: 0;
+		  position: fixed;
+        font-family: "Helvetica", Arial, sans-serif;
+        font-size : 12px; /* hauteur du texte : 12 pixels */
+        opacity: 0.70;
+}
+
+
+#menu a 
+
+{
+		  border-radius: $radius;
+		  background: $bgColorLi;
+        display : block; 
+        padding : 0;  
+        color : #fff; 
+        text-decoration : none; 
+        width : 144px;
+}
+
+
+#menu li       
+
+{ 
+        float : right; 
+        
+
+}
+
+
+#menu li ul 
+
+{
+        position: absolute; 
+        width: 144px; 
+        left: -999em; 
+}
+
+
+
+
+html>body #menu li ul li                
+
+{
+        border-top : 1px solid transparent;  
+}
+
+
+#menu a:hover      
+
+{
+        background: $bgColorLiAfter; 
+}
+
+
+
+
+#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
+
+{
+        left: auto; 
+        min-height: 0; 
+
+}

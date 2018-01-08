@@ -7,22 +7,53 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ 
 <title>CV </title>
+
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
  <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/menu.css">
+ 
+ <script type="text/javascript" src="cv.js"></script>
+ <script type="text/javascript" src="menu.js"></script>
 </head>
 
 <body>
 
 <header>
-	<div class="placeholder"></div>
+
+<a href="#" class="toggle-nav js-nav"><i class="fa fa-bars fa-2x"></i></a>
+
+	<div class="link-menu">
+<ul id="menu">
+
+        <li>
+                <a href="#">menu</a>
+                <ul>
+                        <li><a href="#propos">A propos</a></li>
+								<li><a href="#comp">Compétences</a></li>
+	 							<li><a href="#projet">Projets</a></li>
+	 							<li><a href="#etude">Etudes/Expériences</a></li>
+	 							<li><a href="#hobbie">Hobbies</a></li>
+	  							<li><a href="#contact">Contact</a></li>
+                </ul>
+        </li>
+       
+</ul>
+
+</div>
+
+
+<div class="placeholder"></div>
 		<h1>Bonjour, je suis Evelyne LEUNENS, </h1>	
 		<h2 class="titre">Dévelopeuse Web/Mobile</h2>
+		
 </header>
 
+
  <div><img class="portrait" src="img/portrait.jpg" alt="portrait"/></div>
- <div class="propos">
+ <div id="propos" class="propos">
  	<h2 class="propos_titre">A propos</h2>
  	<p class="propos_p">Actuellement en formation de développeur web/mobile, je cherche à développer les 
  	compétences acquises depuis le début de cette formation. Et également, apprendre et evoluer au sein d'une 
@@ -31,6 +62,7 @@
  </div>
  
  <div class="competence">
+  <div id="comp"></div>
  	<h2 class="competence_titre">Compétences</h2>
  	<p class="competence_p">En continuité de ma formation, je poursuis l'apprentissage des languages vus et étends
  	également mes connaissances dans le domaine du développement Web.</p>
@@ -42,7 +74,6 @@
  <div class="divers">Divers</div>
  <div class="placeholder1"></div>
  
-
  <div class="frontend_element"> 
  	<p><img class="trait" src="img/trait.png" alt="trait"> HTML 5</p>
  	<p><img class="trait" src="img/trait.png" alt="trait"> CSS 3</p>
@@ -60,8 +91,8 @@
   	<p><img class="trait" src="img/trait.png" alt="trait"> Gimp</p>
  </div>
   
- 
  <div class="projet">
+  <div id="projet"></div>
  	<img class="code" src="img/code.jpg" alt="code">
 	<h2 class="projet_titre">Projets</h2> 
 	<p class="projet_p">Je vous présente ici les projets marquants de ma formation.</p>
@@ -76,9 +107,11 @@
  
  <div class="ee">
 	<h2>Etudes/Expériences</h2>
- </div>
+ </div> 
+
 
  <div class="placeholder1"></div>
+ <div id="etude"></div>
  <div class="ee_titre">Etudes</div>
  <div class="ee_titre">Expériences</div>
  
@@ -103,7 +136,7 @@
   	rigueur et l'autonomie dans le travail.</p>
  </div>
  
- <div class="hobbie">
+<div class="hobbie">
 	<h2>Hobbies</h2> 
 	<p>En dehors du code, mon temps se partage entre ma vie de famille et mes hobbies</p>
  </div>
@@ -134,17 +167,16 @@
 	</figure>
  </div>
  
- 
  <div class="contact">
  	<h2>Contact</h2>
  </div>
  
- <div class="placeholder1"></div>
+  <div class="placeholder1"></div>
  <div class="contact_tel"><img class="tel" src="img/telephone.png" alt="telephone"></div>
  <div class="contact_mail"> <img class="mail" src="img/mail.png" alt="mail"></div>
  <div class="contact_adresse"><img class="mai" src="img/maison.png" alt="maison"></div>
- 
-<div class="placeholder1"></div> 
+  <div class="placeholder1"></div>
+
  
  <div class="contact_element"> 
  	<p><img class="trait" src="img/trait.png" alt="trait"><a class="phone" href="tel:+33665315211" target="_blank">  06/65/31/52/11</a></p>
@@ -155,7 +187,6 @@
  <div class="contact_element">
   	<p><img class="trait" src="img/trait.png" alt="trait"> Place Léon Blum, 62880 Vendin le Vieil</p>
  </div>
-
 
  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
  <script type="text/javascript" src="js/materialize.min.js"></script>
