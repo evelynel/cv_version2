@@ -14,6 +14,7 @@
  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
  <link rel="stylesheet" href="css/style.css">
  <link rel="stylesheet" href="css/menu.css">
+ <link rel="stylesheet" href="css/smallscreen.css" />
  
  <script type="text/javascript" src="cv.js"></script>
  <script type="text/javascript" src="menu.js"></script>
@@ -53,8 +54,10 @@
 
 
  <div><img class="portrait" src="img/portrait.jpg" alt="portrait"/></div>
- <div id="propos" class="propos">
- 	<h2 class="propos_titre">A propos</h2>
+ 	<div id="propos" class="propos_titre">
+  	<h2 >A propos</h2>
+  	</div>
+ <div class="propos">
  	<p class="propos_p">Actuellement en formation de développeur web/mobile, je cherche à développer les 
  	compétences acquises depuis le début de cette formation. Et également, apprendre et evoluer au sein d'une 
  	entreprise a laquelle je pourrais apporter mes connaissances nouvellement acquises et qui pourra m'apporter 
@@ -104,14 +107,13 @@
 	<a href="https://github.com/evelynel" target="_blank"><img class="github" src="img/projet_formation.png" alt="interface github"></a> 
  </div>
  
- 
- <div class="ee">
+ <div id="etude" class="ee">
 	<h2>Etudes/Expériences</h2>
+	  
  </div> 
 
 
  <div class="placeholder1"></div>
- <div id="etude"></div>
  <div class="ee_titre">Etudes</div>
  <div class="ee_titre">Expériences</div>
  
@@ -136,7 +138,7 @@
   	rigueur et l'autonomie dans le travail.</p>
  </div>
  
-<div class="hobbie">
+<div id="hobbie" class="hobbie">
 	<h2>Hobbies</h2> 
 	<p>En dehors du code, mon temps se partage entre ma vie de famille et mes hobbies</p>
  </div>
@@ -167,7 +169,7 @@
 	</figure>
  </div>
  
- <div class="contact">
+ <div id="contact" class="contact">
  	<h2>Contact</h2>
  </div>
  
@@ -179,14 +181,17 @@
 
  
  <div class="contact_element"> 
- 	<p><img class="trait" src="img/trait.png" alt="trait"><a class="phone" href="tel:+33665315211" target="_blank">  06/65/31/52/11</a></p>
+ 	<p><img class="trait1" src="img/trait.png" alt="trait"><a class="phone" href="tel:+33665315211" target="_blank">  06/65/31/52/11</a></p>
  </div>
  <div class="contact_element">
- 	<p><img class="trait" src="img/trait.png" alt="trait"><a class="mailto" href="mailto:evy-62@hotmail.fr"> evy-62@hotmail.fr</a></p>
+ 	<p><img class="trait1" src="img/trait.png" alt="trait"><a class="mailto" href="mailto:evy-62@hotmail.fr"> evy-62@hotmail.fr</a></p>
  </div>
  <div class="contact_element">
-  	<p><img class="trait" src="img/trait.png" alt="trait"> Place Léon Blum, 62880 Vendin le Vieil</p>
+  	<p><img class="trait1" src="img/trait.png" alt="trait"> Place Léon Blum, 62880 Vendin le Vieil</p>
  </div>
+ 
+<div class="copyright">Copyright &copy; <?php echo date("Y"); ?> CV créé par Evelyne Leunens </div>
+
 
  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
  <script type="text/javascript" src="js/materialize.min.js"></script>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html language="fr">
+
+
+<head>
+ <meta charset="utf-8"/>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ 
+<title>CV </title>
+
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+ <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/menu.css">
+ <link rel="stylesheet" href="css/smallscreen.css" />
+ 
+ <script type="text/javascript" src="cv.js"></script>
+ <script type="text/javascript" src="menu.js"></script>
+</head>
+
+<body>
+
+<header>
+
+<a href="#" class="toggle-nav js-nav"><i class="fa fa-bars fa-2x"></i></a>
+
+	<div class="link-menu">
+<ul id="menu">
+
+        <li>
+                <a href="#">menu</a>
+                <ul>
+                        <li><a href="#propos">A propos</a></li>
+								<li><a href="#comp">Compétences</a></li>
+	 							<li><a href="#projet">Projets</a></li>
+	 							<li><a href="#etude">Etudes/Expériences</a></li>
+	 							<li><a href="#hobbie">Hobbies</a></li>
+	  							<li><a href="#contact">Contact</a></li>
+                </ul>
+        </li>
+       
+</ul>
+
+</div>
+
+<p class="pdf"><a class="apdf" href="http://evelyne-leunens.fr/CV-Eve.pdf" target="_blank"> CV format pdf</a></p>
+
+<div class="placeholder"></div>
+		<h1>Bonjour, je suis Evelyne LEUNENS, </h1>	
+		<h2 class="titre">Dévelopeuse Web/Mobile</h2>
+		
+	<div class="social">
+        <a href="https://github.com/evelynel" target="_blank"><img class="social-logo1" src="img/git.png" alt="logo git" /></a>
+        <a href="https://www.linkedin.com/in/evelyne-leunens-488418146/" target="_blank"><img class="social-logo2" src="img/linkedin.png" alt="logo linkedin"></a>
+      </div>
+</header>
+
+
+ <div><img class="portrait" src="img/portrait.jpg" alt="portrait"/></div>
+ 	<div id="propos" class="propos_titre">
+  	<h2 >A propos</h2>
+  	</div>
+ <div class="propos">
+ 	<p class="propos_p">Actuellement en formation de développeur web/mobile, je cherche à développer les 
+ 	compétences acquises depuis le début de cette formation. Et également, apprendre et evoluer au sein d'une 
+ 	entreprise a laquelle je pourrais apporter mes connaissances nouvellement acquises et qui pourra m'apporter 
+ 	son expérience.</p>
+ </div>
+ 
+ <div class="competence">
+  <div id="comp"></div>
+ 	<h2 class="competence_titre">Compétences</h2>
+ 	<p class="competence_p">En continuité de ma formation, je poursuis l'apprentissage des languages vus et étends
+ 	également mes connaissances dans le domaine du développement Web.</p>
+ </div>
+ 
+ <div class="placeholder1"></div>
+ <div class="frontend">Front End</div>
+ <div class="backend">Back End</div>
+ <div class="divers">Divers</div>
+ <div class="placeholder1"></div>
+ 
+ <div class="frontend_element"> 
+ 	<p><img class="trait" src="img/trait.png" alt="trait"> HTML 5</p>
+ 	<p><img class="trait" src="img/trait.png" alt="trait"> CSS 3</p>
+ </div>
+ 
+ <div class="backend_element"> 
+ 	<p><img class="trait" src="img/trait.png" alt="trait"> JAVASCRIPT</p>
+ 	<p><img class="trait" src="img/trait.png" alt="trait"> PHP</p>
+ </div>
+ 
+ <div class="divers_element"> 
+ 	<p><img class="trait" src="img/trait.png" alt="trait"> Github</p>
+ 	<p><img class="trait" src="img/trait.png" alt="trait"> Bash</p>
+ 	<p><img class="trait" src="img/trait.png" alt="trait"> Bootstrap</p>
+  	<p><img class="trait" src="img/trait.png" alt="trait"> Gimp</p>
+ </div>
+  
+ <div class="projet">
+  <div id="projet"></div>
+ 	<img class="code" src="img/code.jpg" alt="code">
+	<h2 class="projet_titre">Projets</h2> 
+	<p class="projet_p">Je vous présente ici les projets marquants de ma formation.</p>
+ </div>
+ 
+ <div class="projet_img">
+	<a href="https://github.com/evelynel/cv_version2" target="_blank"><img class="cv_img" src="img/cv_img.png" alt="cv"></a>
+	<a href="http://leamorel.fr/" target="_blank"><img class="wordpress" src="img/wordpress_lea.png" alt="image site décoratrice intérieure"></a> 
+	<a href="https://github.com/evelynel" target="_blank"><img class="github" src="img/projet_formation.png" alt="interface github"></a> 
+ </div>
+ 
+ <div id="etude" class="ee">
+	<h2>Etudes/Expériences</h2>
+	  
+ </div> 
+
+
+ <div class="placeholder1"></div>
+ <div class="ee_titre">Etudes</div>
+ <div class="ee_titre">Expériences</div>
+ 
+ <div class="placeholder2"></div>
+
+ <div class="etude"> 
+ 	<p><img class="trait" src="img/trait.png" alt="trait"> <strong>2017</strong> : Formation Développeur web/mobile à Pop School 
+ 	Lens</p>
+ 	<p><img class="trait" src="img/trait.png" alt="trait"> <strong>2009</strong> : Diplôme d'Etat d'Aide Soigant</p>
+  	<p><img class="trait" src="img/trait.png" alt="trait"> <strong>2006</strong> : BTS assistante de Direction 
+  	en alternance</p>
+ </div>
+
+ <div class="experience"> 
+ 	<p><img class="trait" src="img/trait.png" alt="trait"> <strong>Développeur Web/Mobile</strong> Novembre/Décembre 
+ 	2017 : J'ai créer le site d'une Décoratrice d'Intérieure, ce qui m'a permis d'améliorer mes connaissances 
+ 	Wordpress, de travailler sur référencement naturel et de gérer les problèmes inérant à la création d'un site.</p>
+ 	<p><img class="trait" src="img/trait.png" alt="trait"> <strong>Aide soignante</strong> 2011-2017 : J'ai 
+ 	travaillé dans différentes structures et j'ai rencontré un large public, ce qui m'a appris à m'adapter 
+ 	rapidement aux personnes qui m'entouraient et à travailler en équipe</p>
+  	<p><img class="trait" src="img/trait.png" alt="trait"> <strong>Assistante de Direction</strong> 2009-2011 : J'ai appris la 
+  	rigueur et l'autonomie dans le travail.</p>
+ </div>
+ 
+<div id="hobbie" class="hobbie">
+	<h2>Hobbies</h2> 
+	<p>En dehors du code, mon temps se partage entre ma vie de famille et mes hobbies</p>
+ </div>
+ 
+ <div class="hobbie_img">
+ 	<figure class="snip1585">
+ 		<img src="img/couture.jpg" alt="image objets coutures divers">
+ 	<figcaption>
+    	<h3>Couture</h3>
+   </figcaption>
+  		<a href="#"></a>
+	</figure>
+	
+	<figure class="snip1585">
+  		<img src="img/livre.jpg" alt="image livres">
+  	<figcaption>
+    	<h3>Lecture</h3>
+   </figcaption>
+  		<a href="#"></a>
+	</figure>
+	
+	<figure class="snip1585">
+   <img src="img/jeu.jpg" alt="image manette">
+   <figcaption>
+    	<h3>Jeu Vidéo</h3>
+   </figcaption>
+  		<a href="#"></a>
+	</figure>
+ </div>
+ 
+ <div id="contact" class="contact">
+ 	<h2>Contact</h2>
+ </div>
+ 
+ 
+ <div class="formulaire">
+  <?php
+    /*
+    	********************************************************************************************
+    	CONFIGURATION
+    	********************************************************************************************
+    */
+    // destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
+    $destinataire = 'contact@evelyne-leunens.fr';
+     
+    // copie ? (envoie une copie au visiteur)
+    $copie = 'oui';
+     
+    // Action du formulaire (si votre page a des paramètres dans l'URL)
+    // si cette page est index.php?page=contact alors mettez index.php?page=contact
+    // sinon, laissez vide
+    $form_action = '';
+     
+    // Messages de confirmation du mail
+    $message_envoye = "Votre message nous est bien parvenu !";
+    $message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
+     
+    // Message d'erreur du formulaire
+    $message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis et que l'email soit sans erreur.";
+     
+    /*
+    	********************************************************************************************
+    	FIN DE LA CONFIGURATION
+    	********************************************************************************************
+    */
+     
+    /*
+     * cette fonction sert à nettoyer et enregistrer un texte
+     */
+    function Rec($text)
+    {
+    	$text = htmlspecialchars(trim($text), ENT_QUOTES);
+    	if (1 === get_magic_quotes_gpc())
+    	{
+    		$text = stripslashes($text);
+    	}
+     
+    	$text = nl2br($text);
+    	return $text;
+    };
+     
+    /*
+     * Cette fonction sert à vérifier la syntaxe d'un email
+     */
+    function IsEmail($email)
+    {
+    	$value = preg_match('/^(?:[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+\.)*[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+@(?:(?:(?:[a-zA-Z0-9_](?:[a-zA-Z0-9_\-](?!\.)){0,61}[a-zA-Z0-9_-]?\.)+[a-zA-Z0-9_](?:[a-zA-Z0-9_\-](?!$)){0,61}[a-zA-Z0-9_]?)|(?:\[(?:(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\.){3}(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\]))$/', $email);
+    	return (($value === 0) || ($value === false)) ? false : true;
+    }
+     
+    // formulaire envoyé, on récupère tous les champs.
+    $nom     = (isset($_POST['nom']))     ? Rec($_POST['nom'])     : '';
+    $email   = (isset($_POST['email']))   ? Rec($_POST['email'])   : '';
+    $objet   = (isset($_POST['objet']))   ? Rec($_POST['objet'])   : '';
+    $message = (isset($_POST['message'])) ? Rec($_POST['message']) : '';
+     
+    // On va vérifier les variables et l'email ...
+    $email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erroné, soit il vaut l'email entré
+    $err_formulaire = false; // sert pour remplir le formulaire en cas d'erreur si besoin
+     
+    if (isset($_POST['envoi']))
+    {
+    	if (($nom != '') && ($email != '') && ($objet != '') && ($message != ''))
+    	{
+    		// les 4 variables sont remplies, on génère puis envoie le mail
+    		$headers  = 'From:'.$nom.' <'.$email.'>' . "\r\n";
+    		//$headers .= 'Reply-To: '.$email. "\r\n" ;
+    		//$headers .= 'X-Mailer:PHP/'.phpversion();
+     
+    		// envoyer une copie au visiteur ?
+    		if ($copie == 'oui')
+    		{
+    			$cible = $destinataire.';'.$email;
+    		}
+    		else
+    		{
+    			$cible = $destinataire;
+    		};
+     
+    		// Remplacement de certains caractères spéciaux
+    		$message = str_replace("&#039;","'",$message);
+    		$message = str_replace("&#8217;","'",$message);
+    		$message = str_replace("&quot;",'"',$message);
+    		$message = str_replace('&lt;br&gt;','',$message);
+    		$message = str_replace('&lt;br /&gt;','',$message);
+    		$message = str_replace("&lt;","&lt;",$message);
+    		$message = str_replace("&gt;","&gt;",$message);
+    		$message = str_replace("&amp;","&",$message);
+     
+    		// Envoi du mail
+    		$num_emails = 0;
+    		$tmp = explode(';', $cible);
+    		foreach($tmp as $email_destinataire)
+    		{
+    			if (mail($email_destinataire, $objet, $message, $headers))
+    				$num_emails++;
+    		}
+     
+    		if ((($copie == 'oui') && ($num_emails == 2)) || (($copie == 'non') && ($num_emails == 1)))
+    		{
+    			echo '<p>'.$message_envoye.'</p>';
+    		}
+    		else
+    		{
+    			echo '<p>'.$message_non_envoye.'</p>';
+    		};
+    	}
+    	else
+    	{
+    		// une des 3 variables (ou plus) est vide ...
+    		echo '<p>'.$message_formulaire_invalide.'</p>';
+    		$err_formulaire = true;
+    	};
+    }; // fin du if (!isset($_POST['envoi']))
+     
+    if (($err_formulaire) || (!isset($_POST['envoi'])))
+    {
+    	// afficher le formulaire
+    	echo '
+    	
+    	<form id="contact" method="post" action="'.$form_action.'">
+    	
+    	<fieldset><legend>Vos coordonnées</legend>
+    		<p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" value="'.stripslashes($nom).'" tabindex="1" /></p>
+    		<p><label for="email">Email :</label><input type="text" id="email" name="email" value="'.stripslashes($email).'" tabindex="2" /></p>
+    	</fieldset>
+     
+    	<fieldset><legend>Votre message :</legend>
+    		<p><label for="objet">Objet :</label><input type="text" id="objet" name="objet" value="'.stripslashes($objet).'" tabindex="3" /></p>
+    		<p><label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="30" rows="8">'.stripslashes($message).'</textarea></p>
+    	</fieldset>
+    	<div class="envoyer" style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
+    	
+    	</form>';
+    };
+    ?>
+    </div>
+    
+     <div class="placeholder1"></div>
+ <div class="contact_tel">
+ 	<img class="tel" src="img/telephone.png" alt="telephone">
+ 	<p class="pcontact"><a class="phone" href="tel:+33665315211" target="_blank">  06/65/31/52/11</a></p>
+ </div>
+ <div class="contact_mail"> 
+ 	<img class="mail" src="img/mail.png" alt="mail">
+ 	<p class="pcontact"><a class="mailto" href="mailto:evy-62@hotmail.fr"> evy-62@hotmail.fr</a></p>
+ </div>
+ <div class="contact_adresse">
+ 	<img class="mai" src="img/maison.png" alt="maison">
+   <p class="pcontact">Place Léon Blum, 62880 Vendin le Vieil</p>
+ </div>
+  <div class="placeholder1"></div>
+
+ 
+ 
+<div class="copyright">Copyright &copy; <?php echo date("Y"); ?> CV créé par Evelyne Leunens </div>
+
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
