@@ -13,8 +13,7 @@
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
  <link rel="stylesheet" href="css/style.css">
- <link rel="stylesheet" href="css/menu.css">
- <link rel="stylesheet" href="css/smallscreen.css" />
+
  
  <script type="text/javascript" src="cv.js"></script>
  <script type="text/javascript" src="menu.js"></script>
