@@ -13,8 +13,7 @@
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
  <link rel="stylesheet" href="css/style.css">
- <link rel="stylesheet" href="css/menu.css">
- <link rel="stylesheet" href="css/smallscreen.css" />
+
  
  <script type="text/javascript" src="cv.js"></script>
  <script type="text/javascript" src="menu.js"></script>
@@ -45,7 +44,7 @@
 
 </div>
 
-<p class="pdf"><a class="apdf" href="http://evelyne-leunens.fr/CV-Eve.pdf" target="_blank"> Télécharger CV</a></p>
+<p class="pdf"><a class="apdf" href="http://evelyne-leunens.fr/CV-Eve.pdf" target="_blank"> CV format pdf</a></p>
 
 <div class="placeholder"></div>
 		<h1>Bonjour, je suis Evelyne LEUNENS, </h1>	
@@ -63,10 +62,9 @@
   	<h2 >A propos</h2>
   	</div>
  <div class="propos">
- 	<p class="propos_p">Actuellement en formation de développeur web/mobile, je cherche à développer les 
- 	compétences acquises depuis le début de cette formation. Et également, apprendre et evoluer au sein d'une 
- 	entreprise a laquelle je pourrais apporter mes connaissances nouvellement acquises et qui pourra m'apporter 
- 	son expérience.</p>
+ 	<p class="propos_p">Après différents changements de parcours, la possibilité de travailler dans un domaine
+ 	qui m'a toujours intéréssé, c'est présenté. J'ai donc intégré la formation de développeur web de pop school lens.
+ 	J'y ai appris beaucoup de choses et notamment le travail dans le respect de la bonne pratique du code. </p>
  </div>
  
  <div class="competence">

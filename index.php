@@ -62,10 +62,11 @@
   	<h2 >A propos</h2>
   	</div>
  <div class="propos">
- 	<p class="propos_p">Actuellement en formation de développeur web/mobile, je cherche à développer les 
- 	compétences acquises depuis le début de cette formation. Et également, apprendre et evoluer au sein d'une 
- 	entreprise a laquelle je pourrais apporter mes connaissances nouvellement acquises et qui pourra m'apporter 
- 	son expérience.</p>
+ 	<p class="propos_p">Après différents changements de parcours, la possibilité de travailler dans un domaine
+ 	qui m'a toujours intéréssé, c'est présenté. J'ai donc intégré la formation de développeur web de pop school lens.
+ 	J'y ai appris beaucoup de choses et notamment le travail dans le respect de la bonne pratique du code. J'aime
+ 	apprendre de nouvelles choses et les défis. Et ce changement de carrière et pour le moment l'un des plus 
+ 	grand défi de ma carrière.</p>
  </div>
  
  <div class="competence">
