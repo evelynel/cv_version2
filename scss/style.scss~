@@ -1,3 +1,6 @@
+@import '_menu.scss';
+@import '_smallscreen.scss';
+
 html {
 	margin: 0;
 	padding: 0;
@@ -22,12 +25,12 @@ header {
 	margin-left:2%;
 	padding: 0;
 	text-align:center;
-	
 	width:10%;
 }
 
 .apdf {
 	color:white;
+	text-decoration:none
 }
 
 .social-logo1 {
@@ -236,8 +239,8 @@ h1 {
 .snip1585 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: all 0.45s ease;
-  transition: all 0.45s ease;
+  
+  transition: all 1s ease;
 }
 
 .snip1585:before,
@@ -251,19 +254,19 @@ h1 {
   left: 0;
   right: 0;
   content: '';
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+ 
+  transition: all 1s ease;
   z-index: 1;
   opacity: 0;
 }
 
 .snip1585:before {
-  -webkit-transform: scaleY(2);
+  
   transform: scaleY(2);
 }
 
 .snip1585:after {
-  -webkit-transform: scaleY(2);
+ 
   transform: scaleY(2);
 }
 
@@ -287,8 +290,8 @@ h1 {
   line-height: 1.1em;
   opacity: 0;
   z-index: 2;
-  -webkit-transition-delay: 0s;
-  transition-delay: 0s;
+ 
+  transition-delay: 1s;
 }
 
 .snip1585 h3 {
@@ -318,7 +321,7 @@ h1 {
 .snip1585.hover:before,
 .snip1585:hover:after,
 .snip1585.hover:after {
-  -webkit-transform: scale(1);
+  
   transform: scale(1);
   opacity: 1;
 }
@@ -326,8 +329,8 @@ h1 {
 .snip1585:hover figcaption,
 .snip1585.hover figcaption {
   opacity: 1;
-  -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
+ 
+  transition-delay: 1s;
 }
 
 .ee {

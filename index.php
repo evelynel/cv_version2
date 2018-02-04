@@ -166,9 +166,9 @@
 	</figure>
 	
 	<figure class="snip1585">
-   <img src="img/jeu.jpg" alt="image manette">
+   <img src="img/patisserie.jpg" alt="image ingrédients de patisserie">
    <figcaption>
-    	<h3>Jeu Vidéo</h3>
+    	<h3>Pâtisserie</h3>
    </figcaption>
   		<a href="#"></a>
 	</figure>
@@ -198,11 +198,11 @@
     $form_action = '';
      
     // Messages de confirmation du mail
-    $message_envoye = "Votre message nous est bien parvenu !";
+    $message_envoye = "Votre message a bien été envoyé !";
     $message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
      
     // Message d'erreur du formulaire
-    $message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis et que l'email soit sans erreur.";
+    $message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis et que l'email soit correct.";
      
     /*
     	********************************************************************************************

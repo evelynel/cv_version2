@@ -64,7 +64,9 @@
  <div class="propos">
  	<p class="propos_p">Après différents changements de parcours, la possibilité de travailler dans un domaine
  	qui m'a toujours intéréssé, c'est présenté. J'ai donc intégré la formation de développeur web de pop school lens.
- 	J'y ai appris beaucoup de choses et notamment le travail dans le respect de la bonne pratique du code. </p>
+ 	J'y ai appris beaucoup de choses et notamment le travail dans le respect de la bonne pratique du code. J'aime
+ 	apprendre de nouvelles choses et les défis. Et ce changement de carrière et pour le moment l'un des plus 
+ 	grand défi de ma carrière.</p>
  </div>
  
  <div class="competence">
@@ -164,9 +166,9 @@
 	</figure>
 	
 	<figure class="snip1585">
-   <img src="img/jeu.jpg" alt="image manette">
+   <img src="img/patisserie.jpg" alt="image ingrédients de patisserie">
    <figcaption>
-    	<h3>Jeu Vidéo</h3>
+    	<h3>Pâtisserie</h3>
    </figcaption>
   		<a href="#"></a>
 	</figure>
@@ -196,7 +198,7 @@
     $form_action = '';
      
     // Messages de confirmation du mail
-    $message_envoye = "Votre message nous est bien parvenu !";
+    $message_envoye = "Votre message a bien été envoyé !";
     $message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
      
     // Message d'erreur du formulaire
