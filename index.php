@@ -85,10 +85,11 @@
  <div class="frontend_element"> 
  	<p><img class="trait" src="img/trait.png" alt="trait"> HTML 5</p>
  	<p><img class="trait" src="img/trait.png" alt="trait"> CSS 3</p>
+ 	 <p><img class="trait" src="img/trait.png" alt="trait"> JAVASCRIPT</p>
  </div>
  
  <div class="backend_element"> 
- 	<p><img class="trait" src="img/trait.png" alt="trait"> JAVASCRIPT</p>
+
  	<p><img class="trait" src="img/trait.png" alt="trait"> PHP</p>
  </div>
  
@@ -97,6 +98,7 @@
  	<p><img class="trait" src="img/trait.png" alt="trait"> Bash</p>
  	<p><img class="trait" src="img/trait.png" alt="trait"> Bootstrap</p>
   	<p><img class="trait" src="img/trait.png" alt="trait"> Gimp</p>
+  	<p><img class="trait" src="img/trait.png" alt="trait"> Wordpress</p>
  </div>
   
  <div class="projet">

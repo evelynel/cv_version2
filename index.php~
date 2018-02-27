@@ -85,10 +85,11 @@
  <div class="frontend_element"> 
  	<p><img class="trait" src="img/trait.png" alt="trait"> HTML 5</p>
  	<p><img class="trait" src="img/trait.png" alt="trait"> CSS 3</p>
+ 	 <p><img class="trait" src="img/trait.png" alt="trait"> JAVASCRIPT</p>
  </div>
  
  <div class="backend_element"> 
- 	<p><img class="trait" src="img/trait.png" alt="trait"> JAVASCRIPT</p>
+
  	<p><img class="trait" src="img/trait.png" alt="trait"> PHP</p>
  </div>
  
@@ -202,7 +203,7 @@
     $message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
      
     // Message d'erreur du formulaire
-    $message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis et que l'email soit sans erreur.";
+    $message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis et que l'email soit correct.";
      
     /*
     	********************************************************************************************
